@@ -15,8 +15,11 @@ Consumer -> Consumes atleast 3 messages (Configure this setting from CustomKafka
 
 ## Installation
 1. Clone the repository
+2. Search "TODO:" in all files and modify string as required
 2. Open IntelliJ. Goto File -> Project from Existing Source -> Open Cloned Directory -> Choose External Model "maven" -> Proceed nomally with other steps
 3. Open KafkaApplication.java and Run it using "Run" Button or 'Control + R' in mac
 4. Open Postman. Add new request and add url "localhost:9000/kafka/publish?message=Hello_World" and click Send. It should give Http Status '200 OK'. This will produce a message
 5. Try 
 5. Add another consume request "localhost:9000/kafka/consume" and click Send. It should return list of consumed message
+
+//TODO: 
