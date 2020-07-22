@@ -1,7 +1,6 @@
-# kafka-ms-event-hub-consumer-producer
 Simple consumer producer example for "Microsoft event hub" and "kafka" connection with with kafka protocol
 
-## Intro
+## Introduction
 This repository create a spring boot web service to produce and consume data either from Apache Kafka or Microsoft Event Hub using the kafka protocol.
 This means that using the same codebase you can switch between kafaka and microsoft event hub.
 Producer -> Produces a message
